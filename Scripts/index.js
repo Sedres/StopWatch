@@ -19,6 +19,7 @@ stop.addEventListener('click', () => {
 })
 reset.addEventListener('click', () => {
   clearInterval(interval)
+  start.classList.remove('hide')
   miliseconds = 0
   seconds = 0
   minutes = 0
